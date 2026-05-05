@@ -9,11 +9,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Annenin Gününü Kutla',
-        short_name: 'AnneninGünü',
-        description: 'Annenizin özel gününü kutlamak için dijital platform',
-        theme_color: '#4f46e5',
-        background_color: '#ffffff',
+        name: 'Anneler Günü Anısına Saygı',
+        short_name: 'Saygı',
+        description: 'Anneler Günü için özel tasarlanmış premium anma platformu',
+        theme_color: '#E11D48',
+        background_color: '#FFF1F2',
         display: 'standalone',
         orientation: 'portrait',
         icons: [
