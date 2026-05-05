@@ -7,7 +7,7 @@ export function AppShell() {
   return (
     <div className="relative min-h-screen selection:bg-primary/20 selection:text-primary-700">
       <ParticleBackground />
-      
+
       <AnimatePresence>
         <motion.div
           initial={{ opacity: 0 }}
@@ -16,10 +16,10 @@ export function AppShell() {
           className="relative z-10"
         >
           <HeroSection />
-          
+
           {/* Content Sections can be added here if needed */}
           <div className="max-w-4xl mx-auto px-6 pb-32">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -27,9 +27,9 @@ export function AppShell() {
               className="glass p-12 rounded-3xl text-center relative overflow-hidden group"
             >
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-30" />
-              
+
               <blockquote className="text-2xl font-display italic text-gray-700 mb-6">
-                "Cennet annelerin ayakları altındadır."
+                "Seni Çok Seviyorum Anne"
               </blockquote>
               <div className="w-12 h-12 mx-auto mb-6 text-primary/20">
                 <svg viewBox="0 0 24 24" fill="currentColor">

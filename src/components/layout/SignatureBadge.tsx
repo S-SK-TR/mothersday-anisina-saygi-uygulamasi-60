@@ -46,19 +46,19 @@ export function SignatureBadge() {
 
         {/* Signature Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-          <motion.span 
+          <motion.span
             className="text-[10px] uppercase tracking-[0.3em] text-accent font-medium mb-1"
             animate={{ opacity: [0.6, 1, 0.6] }}
             transition={{ duration: 4, repeat: Infinity }}
           >
-            Anısına
+            Kızın
           </motion.span>
           <span className="font-display italic text-lg text-secondary-foreground">
             Defne
           </span>
         </div>
       </div>
-      
+
       <div className="mt-2 h-px w-12 bg-accent/20" />
     </motion.div>
   )
