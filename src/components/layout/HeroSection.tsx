@@ -17,9 +17,9 @@ export function HeroSection() {
         >
           Sonsuz Bir Sevgiyle
         </motion.span>
-        
+
         <h1 className="text-5xl md:text-8xl font-display font-bold text-secondary-foreground mb-8 text-glow leading-tight">
-          Anneler Gününüz<br />
+          Anneler Günün<br />
           <span className="italic text-primary">Kutlu Olsun</span>
         </h1>
 
@@ -30,10 +30,10 @@ export function HeroSection() {
           className="max-w-2xl mx-auto"
         >
           <p className="text-lg md:text-xl text-gray-600 font-light leading-relaxed mb-12">
-            Hayatımıza anlam katan, her anımızda yanımızda olan, 
-            şefkatiyle dünyamızı güzelleştiren tüm annelerimize...
+            Hayatımıza anlam katan, her anımızda yanımızda olan,
+            şefkatiyle dünyamızı güzelleştiren melek anneme...
           </p>
-          
+
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
