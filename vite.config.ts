@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', 'icons/*.png'],
       manifest: {
-        name: 'Anneler Günü: Sonsuz Sevgi',
-        short_name: 'Anneler Günü',
+        name: 'Melek Annem',
+        short_name: 'Melek Annem',
         description: 'Anneler Günü için özel tasarlanmış premium dijital deneyim',
         theme_color: '#E11D48',
         background_color: '#FFF1F2',

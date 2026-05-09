@@ -46,7 +46,6 @@ export function AppShell() {
       </AnimatePresence>
 
       <SignatureBadge />
-      <PWAInstallButton />
 
       {/* Decorative borders */}
       <div className="fixed inset-0 border-[16px] border-white/10 pointer-events-none z-50" />
