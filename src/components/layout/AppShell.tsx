@@ -2,6 +2,7 @@ import { ParticleBackground } from '../motion/ParticleBackground'
 import { HeroSection } from './HeroSection'
 import { SignatureBadge } from './SignatureBadge'
 import { motion, AnimatePresence } from 'framer-motion'
+import { PWAInstallButton } from '../pwa/PWAInstallButton'
 
 export function AppShell() {
   return (
@@ -45,6 +46,7 @@ export function AppShell() {
       </AnimatePresence>
 
       <SignatureBadge />
+      <PWAInstallButton />
 
       {/* Decorative borders */}
       <div className="fixed inset-0 border-[16px] border-white/10 pointer-events-none z-50" />
